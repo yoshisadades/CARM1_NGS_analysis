@@ -1,6 +1,12 @@
 # CARM1_NGS_analysis
 An NGS analysis package published in xxx
 Here is how to use/run these codes.
+The project was developed and tested with the following setup:
+ - OS: Ubuntu 20.04.3 LTS
+ - Anaconda 2022.10
+ - Python 3.10.9
+ - conda 22.11.1
+For reproducibility of each packages used, the same environments cab be used with preprocessing.yml and clustering.yml
 
 1) preprocessing
 - Edit the preproc.config
