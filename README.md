@@ -14,23 +14,34 @@ For reproducibility of each packages used, the same environments cab be used wit
 - Edit the preproc.config
   
     line 1: experiment_name
+
     line 2: working directory
+
     line 4: primer1 as a DNA sequnece before peptide encoding region
+
     line 6: primer2 as a DNA sequence after peptide encoding region
+
     line 8: amino acid linker sequences used for spacer after randamized region
 
     line 12: raw data location
+
     line 16: name pattern of raw data files
-    line 19: directory for output
+
+  	line 19: directory for output
 
     line 22: permitted error rate for primer sequence identification
-    line 23: quality score threshold for primer sequence
-    line 24: permitted rate of "unknown" base in primer sequence
-    line 25: minimum length of the peptide encoding region
-    line 26: maximum length of the peptide encoding region
+
+  	line 23: quality score threshold for primer sequence
+
+  	line 24: permitted rate of "unknown" base in primer sequence
+
+  	line 25: minimum length of the peptide encoding region
+
+  	line 26: maximum length of the peptide encoding region
 
     line 27: minimum length of the peptide
-    line 28: maximum length of the peptide 
+
+  	line 28: maximum length of the peptide 
 
     line 32: round on which sorting of the sequence abundance is based.
   
