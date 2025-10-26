@@ -8,8 +8,11 @@ The project was developed and tested with the following setup:
  - conda 22.11.1
 For reproducibility of each packages used, the same environments cab be used with preprocessing.yml and clustering.yml
 
+
 1) preprocessing
+
 - Edit the preproc.config
+  
     line 1: experiment_name
     line 2: working directory
     line 4: primer1 as a DNA sequnece before peptide encoding region
@@ -30,12 +33,14 @@ For reproducibility of each packages used, the same environments cab be used wit
     line 28: maximum length of the peptide 
 
     line 32: round on which sorting of the sequence abundance is based.
+  
 - Activate a virtual environment "preprocessing" (use preprocessing.yml)
 - Run preproc_fw.sh
 
 This will create the summary of the sequence and counts sorted based on the round specified on line 28.
 
  2) clustering
+ 
 - Edit and Run Df_to_fasta.py
     line 5: fasta_folder
     line 6: file_path of tsv
